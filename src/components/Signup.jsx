@@ -46,7 +46,7 @@ function Signup(){
                     Sign In
                 </Link>
             </p>
-            {error && <P className='text-red-600 mt-8 text-center'>{error}</P>}
+            {error && <p className='text-red-600 mt-8 text-center'>{error}</p>}
             <form onSubmit={handleSubmit(create)}>
                 <div className="space-y-5">
                     <Input
