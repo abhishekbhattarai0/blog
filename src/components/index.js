@@ -13,7 +13,7 @@ import Button from '../components/Header/Button'
 import Input from '../components/Input'
 import Select from './../Select'
 
-export  {
+export default {
     Header,
     Footer,
     Container,
